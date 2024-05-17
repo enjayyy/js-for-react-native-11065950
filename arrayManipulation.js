@@ -14,9 +14,24 @@ function processArray(arr) {
     });
   }
 
+ 
+  function formatArrayStrings(strings, arr){
+    if (strings.length!== arr.length){
+        console.log("Arrays should be of the same length");
+    }
 
-  //example usage
+    for (i=0; i < strings.length; i++){
+        if (arr[i] % 2==0){
+            strings[i]= strings[i].toUpperCase();
+        }else{
+            strings[i]= strings[i].toLowerCase();
+        }
+    }
+    return strings;
+  }
 
- /* const inputArray = [1, 2, 3, 4, 5, 6];
-  const resultArray = processArray(inputArray);
-  console.log(resultArray);*/
+  //usage
+  const strings = ["Hello", "WORLD", "JavaScript"];
+  const arr = [2, 5, 4];
+  const formattedStrings = formatArrayStrings(strings, arr);
+  console.log(formattedStrings); 
