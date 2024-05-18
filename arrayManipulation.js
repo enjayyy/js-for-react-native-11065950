@@ -4,6 +4,7 @@
 - Returns a new array where each even number is squared and each odd number
 is tripled.*/
 
+
 function processArray(arr) {
     return arr.map(function(num) {
       if (num % 2 === 0) {
@@ -35,3 +36,4 @@ function processArray(arr) {
   const arr = [2, 5, 4];
   const formattedStrings = formatArrayStrings(strings, arr);
   console.log(formattedStrings); 
+
