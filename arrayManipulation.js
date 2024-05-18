@@ -4,6 +4,7 @@
 - Returns a new array where each even number is squared and each odd number
 is tripled.*/
 
+export {strings,formatArrayStrings} 
 
 function processArray(arr) {
     return arr.map(function(num) {
