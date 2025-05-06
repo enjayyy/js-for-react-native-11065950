@@ -1,9 +1,4 @@
-# Name: Nana Akpaabe Adessa Oji
-# ID: 11065950 
-
-
-# Task 1:
-**Description:
+#Array Manipulation
 This function takes an array of numbers as an argument and returns a new array where each even number is squared and each odd number is triple
 
 Process:
